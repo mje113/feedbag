@@ -1,1 +1,4 @@
 - Document Feedbag.feed?
+- Refactor code
+- Thread validator checks (how important is it anyway?)
+- Add simple spider for finding feeds on deeper levels

@@ -33,4 +33,11 @@ class FeedbagTest < Test::Unit::TestCase
     end
   end
 
+  context "Feedbag::Spider find should discover feeds in linked pages" do
+    should "spider find feed" do
+      assert_equal [''], Feedbag.spider('https://github.com')
+
+    end
+  end
+
 end

@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency("nokogiri") 
   s.add_development_dependency "shoulda" 
   s.add_development_dependency "mocha", "~> 0.12.0"
+  s.add_development_dependency "pry"
   s.bindir = 'bin'
   s.default_executable = %q{feedbag}
   s.executables = ["feedbag"]
